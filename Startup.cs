@@ -51,7 +51,8 @@ namespace TodoMvc
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=CoreUI}/{action=Index}/{id?}");
+                    // template: "{controller=CoreUI}/{action=Index}/{id?}");
+                    template: "{controller=Login}/{action=Index}/{id?}");
             });
         }
     }
